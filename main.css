@@ -134,7 +134,6 @@ padding: 60px;
 .features__рremium-class {
   width: 170px;
   display: inline-block;
-  padding: 20px;
   text-align: -webkit-center;
 }
 
@@ -232,7 +231,12 @@ padding: 16px;
 
 .footer {
   background: #131415;
-  margin-bottom: 80px;
+}
+
+.footer__container {
+  position: relative;
+  height: px;
+  padding: 0 auto;
 }
 
 .comment__text {
@@ -247,4 +251,23 @@ padding: 16px;
   top: 2265px;
   width: 20px;
   height: 20px;
+}
+
+.comment,
+.ligi__fitness--footer {
+  width: 245px;
+}
+
+.ligi__fitness--footer {
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  position: absolute;
+}
+
+.contact {
+  position: absolute;
+ 
+  text-align: right;
+
 }
