@@ -235,11 +235,12 @@ padding: 16px;
 
 .footer__container {
   position: relative;
-  height: px;
-  padding: 0 auto;
+  height: 75px;
+
 }
 
-.comment__text {
+.comment__text,
+.contact__networks {
   color: #fff;
 }
 
@@ -247,27 +248,33 @@ padding: 16px;
   border-radius: 50%;
   background-color: rgb(208, 208, 208);
   position: absolute;
-  left: 937px;
-  top: 2265px;
   width: 20px;
   height: 20px;
 }
 
 .comment,
-.ligi__fitness--footer {
+.logo__fitness--footer {
   width: 245px;
+  position: absolute;
+
 }
 
-.ligi__fitness--footer {
-  top: 50%;
+.comment {
+  text-align: left;
+  top: auto;
+  left: auto;
+}
+
+.logo__fitness--footer {
+  top: 40%;
   left: 50%;
   font-size: 18px;
-  position: absolute;
 }
 
 .contact {
+  width: 165px;
+  height: auto;
   position: absolute;
- 
-  text-align: right;
-
+  top: auto;
+  left: 87%;
 }
