@@ -205,20 +205,30 @@ padding: 16px;
   object-fit: cover;
 }
 
-/* .pagination {
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-} */
-
-.pagination__display {
-  width: 120px;
+.pagination {
+  display: inline-flex;
 }
 
 
+.pagination__display {
+
+}
+
+.pagination__list {
+  display: inline-flex;
+}
+
+.pagination__item {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
 .pagination__link {
   content: "";
-  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
   width: 25px;
   height: 25px;
 }
