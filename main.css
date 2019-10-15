@@ -267,14 +267,6 @@ padding: 16px;
   color: #fff;
 }
 
-.contact__link {
-  border-radius: 50%;
-  background-color: rgb(208, 208, 208);
-  position: absolute;
-  width: 20px;
-  height: 20px;
-}
-
 .comment,
 .logo__fitness--footer {
   width: 245px;
@@ -300,4 +292,36 @@ padding: 16px;
   position: absolute;
   top: auto;
   left: 87%;
+}
+
+.contact__link {
+  border-radius: 50%;
+  background-color: #d0d0d0;
+  color: #27273e;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.contact__list {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.contact__networks {
+
+}
+
+.contact__list-item--active::after {
+  display: none; 
+}
+
+.contact__list-item--active .contact__link {
+  background: #f89513;
+  border-radius: 50%;
+  color: #fff;
+}
+.contact__list-item {
+  
 }
