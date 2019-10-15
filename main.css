@@ -239,9 +239,10 @@ padding: 16px;
   
 } */
 
-
-.pagination,
-.pagination__pager
+.pagination {
+  vertical-align: middle;
+  display: inline-block;
+}
 
 .pagination__item,
 .pagination__link,
@@ -250,22 +251,27 @@ padding: 16px;
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-  text-align: center;
 }
 
 
-.pagination__link::before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-  height: 25px;
-
+.pagination__item--active::after {
+  display: none; 
 }
-.pagination__item{
+
+.pagination__item--active .pagination__link {
+  background: #27273e;
+  border-radius: 10%;
+  color: #fff;
 }
 
 .pagination__link {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  
 }
 
 
