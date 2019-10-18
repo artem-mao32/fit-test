@@ -219,6 +219,7 @@ padding: 16px;
 .pagination__list,
 .pagination__item {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .pagination__button-prev,
@@ -293,8 +294,8 @@ text-align: center;
   width: 160px;
   height: auto;
   position: absolute;
-  top: auto;
-  left: 87%;
+  top: -15%;
+  left: 85%;
 }
 
 .contact__list-item {
