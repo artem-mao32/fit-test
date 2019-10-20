@@ -14,7 +14,7 @@ ul li {
 .header {
   background: #131415;
   margin-bottom: 80px;
-}
+} 
 
 .container {
   margin: 0 auto;
@@ -30,7 +30,6 @@ ul li {
   position: absolute;
   top: 34px;
   left: 0px;
-
 }
 
 ul.nav__list {
@@ -44,19 +43,18 @@ ul.nav__list li {
   margin-right: 25px;
 }
 
-.main__content {
+.nav {
   color: #fff;
   text-align: center;
   height:20px;
   float: left;
   left: 415px;
-  position: relative;
+  position: absolute;
   top: 34%;
-
 }
 
 .nav__link:before {
-  content: " ";
+  content: "";
   display: inline-block;
   vertical-align: middle;
   width: 20px;
@@ -84,14 +82,17 @@ ul.nav__list li {
   background-image: url('./img/icon-service.png');
 }
 
+.nav__item:nth-child(3) {
+  margin-right: 0;
+}
 
 .contacts {
   position: absolute;
   top: 20px;
   left: 890px;
-  text-align: right;
+  /* text-align: right; */
+  width: 170px;
 }
-
 
 .contacts__phone {
   font-size: 21px;
@@ -155,6 +156,10 @@ padding: 16px;
   width: 140px;
 }
 
+ul.new__list-list {
+  margin-bottom: 70px;
+}
+
 .news__header {
   text-align: center;
   margin-bottom: 75px;
@@ -169,16 +174,16 @@ padding: 16px;
 .news__list {
   width: 880px;
 }
-.news__list-list {
-  margin-bottom: 70px;
+.news__list-item {
+  margin-bottom: 55px;
+}
+
+.news__list-item:nth-child(3) {
+  margin-bottom: 0;
 }
 
 .news-top {
   width: 175px;
-}
-
-.news__list-item {
-  margin-bottom: 55px;
 }
 
 .news__item-pic,
@@ -208,12 +213,7 @@ padding: 16px;
 
 
 .pagination {
-  display: inline-block;
-  margin-left: 30%;
-  width: 30%;
   text-align: center;
-  vertical-align: middle;
-  height: 25px;
 }
 
 .pagination__list,
@@ -226,7 +226,6 @@ padding: 16px;
 .pagination__button-nex {
   display: inline-block;
   vertical-align: middle;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -235,13 +234,18 @@ padding: 16px;
   display: inline-block;
 }
 
-  .pagination__item {
+.pagination__pager {
+  display: inline-block;
+}
+
+.pagination__item {
   font-size: 14px;
   font-weight: bold;
   width: 25px;
   height: 25px;
   text-align: center;
   vertical-align: middle;
+  line-height: 1.5
 }
 
 .pagination__item--active::after {
@@ -249,11 +253,13 @@ padding: 16px;
 }
 
 .pagination__item--active .pagination__link {
-  background: #27273e;
-  border-radius: 10%;
   color: #fff;
 }
 
+.pagination__item--active {
+  background: #27273e;
+  border-radius: 10%;
+}
 
 .footer {
   background: #131415;
@@ -294,8 +300,11 @@ text-align: center;
   width: 160px;
   height: auto;
   position: absolute;
-  top: -15%;
+  top: 15%;
   left: 85%;
+}
+.contact__networks {
+  margin-bottom: 5px;
 }
 
 .contact__list-item {
@@ -312,8 +321,9 @@ text-align: center;
   list-style: none;
 }
 
-.contact__networks {
-  vertical-align: middle;
+.contact__list-item--active {
+  background: #f89513;
+  border-radius: 50%;
 }
 
 .contact__list-item--active::after {
@@ -321,7 +331,5 @@ text-align: center;
 }
 
 .contact__list-item--active .contact__link {
-  background: #f89513;
-  border-radius: 50%;
   color: #fff;
 }
