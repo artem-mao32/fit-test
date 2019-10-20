@@ -213,6 +213,10 @@ padding: 16px;
   vertical-align: top;
 }
 
+.news__list-list {
+  margin-bottom: 70px;
+}
+
 .news__list {
   width: 880px;
 }
