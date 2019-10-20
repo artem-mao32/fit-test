@@ -1,3 +1,7 @@
+html, body {
+  overflow-x;: hidden;
+}
+
 body {
   margin: 0px;
 }
@@ -18,12 +22,18 @@ ul li {
 .header {
   background: #131415;
   margin-bottom: 80px;
+
 } 
+
+.container__features {
+  width: 100%;  
+}
 
 .container {
   margin: 0 auto;
   width: 1060px;  
 }
+
 .header__container {
   position: relative;
   height: 75px;
