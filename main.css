@@ -1,0 +1,391 @@
+html, body {
+  overflow-x;: hidden;
+}
+
+body {
+  margin: 0px;
+}
+.wrapper {
+  min-width: 1100px;
+
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header {
+  background: #131415;
+  margin-bottom: 80px;
+
+} 
+
+.container__features {
+  width: 100%;  
+}
+
+.container {
+  margin: 0 auto;
+  width: 1060px;  
+}
+
+.header__container {
+  position: relative;
+  height: 75px;
+  padding: 0 auto;
+}
+
+.logo__fitness {
+  position: absolute;
+  top: 34px;
+  left: 0px;
+}
+
+ul.nav__list {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.nav__list li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.nav {
+  color: #fff;
+  text-align: center;
+  height:20px;
+  float: left;
+  left: 415px;
+  position: absolute;
+  top: 34%;
+}
+
+.nav__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  margin-right: 18px;
+  background: center center / contain no-repeat;
+}
+
+.nav__link {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+.nav__link--icon--main:before {
+  background-image: url('./img/icon-main.png');
+}
+
+.nav__link--icon--feed:before {
+  background-image: url('./img/icon-feed.png');
+}
+
+.nav__link--icon--service:before {
+  background-image: url('./img/icon-service.png');
+}
+
+.nav__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.contacts {
+  position: absolute;
+  top: 20px;
+  left: 890px;
+  /* text-align: right; */
+  width: 170px;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contacts__hours {
+  font-size: 14px;
+  color: rgba(248, 149, 19, 0.702);
+  font-weight: bold;
+  }
+
+.page__content {
+  margin-bottom: 65px;
+}
+
+.banner {
+  padding: 0px;
+  margin-bottom: 60px;
+  text-align: center
+}
+
+.features {
+  background: #131415;
+  color: #fff;
+  text-align: center;
+  height: 560px;
+  margin-bottom: 70px;
+}
+
+.features__title {
+padding: 60px;
+}
+
+.features__uniqueness,
+.features__personal-trainer,
+.features__рremium-class {
+  width: 200px;
+  display: inline-block;
+  text-align: -webkit-center;
+}
+
+.features__uniqueness,
+.features__рremium-class {
+  margin-right: 70px;
+}
+
+.features__uniqueness-icon, .features__рremium-icon, 
+.features__trainer-icon {
+  border-radius: 50%;
+  background-color: rgb(248, 149, 19);
+  width: 68px;
+  height: 68px;
+}
+
+.features__uniqueness-icon,
+.features__trainer-icon,
+.features__рremium-icon {
+  position: relative;
+}
+
+.features__uniqueness-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.features__рremium-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.features__trainer-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+/* .features__pic-icon {
+padding: 16px;
+} */
+
+.features ul li {
+  list-style: disc;
+  text-align: left;
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.features ul li:nth-child(3) {
+  margin-bottom: 0;
+}
+
+
+.news__header {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.news__list,
+.news-top {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.news__list-list {
+  margin-bottom: 70px;
+}
+
+.news__list {
+  width: 880px;
+}
+.news__list-item {
+  margin-bottom: 55px;
+}
+
+.news__list-item:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.news-top {
+  width: 175px;
+}
+
+.news__item-pic,
+.news__item-desc {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.news__item-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.news__item-desc {
+  width: 670px;
+  margin-left: 20px;
+}
+
+.news__pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.pagination {
+  text-align: center;
+}
+
+.pagination__list,
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__button-prev,
+.pagination__button-nex {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.pagination__display {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.pagination__pager {
+  display: inline-block;
+}
+
+.pagination__item {
+  font-size: 14px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5
+}
+
+.pagination__item--active::after {
+  display: none; 
+}
+
+.pagination__item--active .pagination__link {
+  color: #fff;
+}
+
+.pagination__item--active {
+  background: #27273e;
+  border-radius: 10%;
+}
+
+.footer {
+  background: #131415;
+}
+
+.footer__container {
+  position: relative;
+  height: 75px;
+
+}
+
+.comment__text,
+.contact__networks {
+  color: #fff;
+}
+
+.comment,
+.logo__fitness--footer {
+  width: 245px;
+  position: absolute;
+
+}
+
+.comment {
+text-align: center;
+  text-align: left;
+  top: auto;
+  left: auto;
+}
+
+.logo__fitness--footer {
+  top: 40%;
+  left: 50%;
+  font-size: 18px;
+}
+
+.contact {
+  width: 160px;
+  height: auto;
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
+.contact__networks {
+  margin-bottom: 5px;
+}
+
+.contact__list-item {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #d0d0d0;
+  color: #27273e;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.contact__list {
+  list-style: none;
+}
+
+.contact__list-item--active {
+  background: #f89513;
+  border-radius: 50%;
+}
+
+.contact__list-item--active::after {
+  display: none; 
+}
+
+.contact__list-item--active .contact__link {
+  color: #fff;
+}
