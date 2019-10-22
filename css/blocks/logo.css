@@ -1,0 +1,13 @@
+.logo__fitness {
+  position: absolute;
+  top: 34px;
+  left: 0px;
+}
+
+.logo__fitness--footer {
+  width: 245px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 18px;
+}

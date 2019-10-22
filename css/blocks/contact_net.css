@@ -1,0 +1,47 @@
+.contact__networks {
+  color: #fff;
+}
+
+.contact {
+  width: 160px;
+  height: auto;
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
+
+.contact__networks {
+  margin-bottom: 5px;
+}
+
+.contact__list-item {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #d0d0d0;
+  color: #27273e;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.contact__list {
+  list-style: none;
+}
+
+.contact__list-item--active {
+  background: #f89513;
+  border-radius: 50%;
+}
+
+.contact__list-item--active::after {
+  display: none; 
+}
+
+.contact__list-item--active .contact__link {
+  color: #fff;
+}
+
+.contact__list-item:nth-child(5) {
+  margin-right: 0;
+}

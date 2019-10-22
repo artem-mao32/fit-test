@@ -1,0 +1,10 @@
+.header {
+  background: #131415;
+  margin-bottom: 80px;
+} 
+
+.header__container {
+  position: relative;
+  height: 75px;
+  padding: 0 auto;
+}

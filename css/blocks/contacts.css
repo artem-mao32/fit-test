@@ -1,0 +1,20 @@
+.contacts {
+  position: absolute;
+  top: 20px;
+  left: 890px;
+  text-align: right;
+  width: 170px;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contacts__hours {
+  font-size: 14px;
+  color: rgba(248, 149, 19, 0.702);
+  font-weight: bold;
+  }

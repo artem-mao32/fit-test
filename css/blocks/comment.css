@@ -1,0 +1,12 @@
+.comment__text {
+  color: #fff;
+}
+
+.comment {
+  text-align: center;
+  text-align: left;
+  top: auto;
+  left: auto;
+  width: 245px;
+  position: absolute;
+}

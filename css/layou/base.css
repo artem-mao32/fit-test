@@ -18,10 +18,14 @@ body {
   flex: 1;
 }
 
-* {
-  box-sizing: border-box;
+.container {
+  margin: 0 auto;
+  width: 1060px;  
 }
 
+/* * {
+  box-sizing: border-box;
+} */
 
 ul {
   margin: 0px;
