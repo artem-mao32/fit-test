@@ -4,5 +4,8 @@
 
 .footer__container {
   position: relative;
-  height: 75px;
+  padding: 3px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

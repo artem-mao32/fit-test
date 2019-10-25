@@ -1,11 +1,6 @@
 .nav {
   color: #fff;
-  text-align: center;
-  height:20px;
-  float: left;
-  left: 370px;
-  position: absolute;
-  top: 34%;
+  
 }
 
 ul.nav__list {

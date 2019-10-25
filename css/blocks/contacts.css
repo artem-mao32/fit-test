@@ -1,9 +1,6 @@
 .contacts {
-  position: absolute;
-  top: 20px;
-  left: 890px;
+  font-style: normal;
   text-align: right;
-  width: 170px;
 }
 
 .contacts__phone {
