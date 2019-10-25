@@ -17,19 +17,21 @@
               <img src="./img/logo.png" class="logo__fitnes-pic" alt="Логотип Афродита">
             </a>
           </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link--icon--main"> Главная </a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link--icon--feed"> Отзывы </a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link--icon--service"> Услуги </a>
-              </li>
-            </ul>
-          </nav>
+          <aside class="sidebar">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link nav__link--icon--main"> Главная </a>
+                </li>
+                <li class="nav__item">
+                  <a href="index_responses.html" class="nav__link nav__link--icon--feed"> Отзывы </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--icon--service"> Услуги </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
         <address class="contacts">
             <a href="tel:+78000039510" class="contacts__phone">8 (800) 00-395-10</a>
             <div class="contacts__hours">
@@ -40,13 +42,13 @@
       </header>
       <div class="page__content">
         <main class="main__content">
-          <div class="container" page__content--container>
+          <div class="container" >
             <div class="banner">
               <img src="./img/justdoit.png" class="buner__just-doit" alt="JUST DOIT">
             </div>
           </div>
           <div class="container__features">
-            <div class="features">
+            <section class="features">
               <div class="features__header">
                 <div class="features__title">
                   <h1 class="features__title-text">ОСОБЕННОСТИ</h1>
@@ -100,10 +102,10 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
           <div class="container page__content--container">
-            <div class="news">
+            <section class="news">
               <div class="news__header">
                 <div class="news__title">
                   <h1 class="news__title-text">ПОСЛЕДНИЕ НОВОСТИ</h1>
@@ -112,8 +114,10 @@
               <div class="news__list">
                 <ul class="news__list-list">
                   <li class="news__list-item">
-                    <div class="news__item-pic">
-                      <img src="./img/new-pic-Layer.jpg" alt="Изображение новости" class="news__pic">
+                    <div class="news__avatar">
+                      <div class="news__item-pic">
+                        <img src="./img/new-pic-Layer.jpg" alt="Изображение новости" class="news__pic">
+                      </div>
                     </div>
                     <div class="news__item-desc">
                       <div class="news__item-date">12.10.2016</div>
@@ -126,8 +130,10 @@
                     </div>
                   </li>
                   <li class="news__list-item">
-                    <div class="news__item-pic">
-                      <img src="./img/new-pic-Layer7.jpg" alt="Изображение новости" class="news__pic">
+                    <div class="news__avatar">
+                      <div class="news__item-pic">
+                        <img src="./img/new-pic-Layer7.jpg" alt="Изображение новости" class="news__pic">
+                      </div>
                     </div>
                     <div class="news__item-desc">
                       <div class="news__item-date">01.02.2016</div>
@@ -140,8 +146,10 @@
                     </div>
                   </li>
                   <li class="news__list-item">
-                    <div class="news__item-pic">
-                      <img src="./img/new-pic-Layer9.jpg" alt="Изображение новости" class="news__pic">
+                    <div class="news__avatar">
+                      <div class="news__item-pic">
+                        <img src="./img/new-pic-Layer9.jpg" alt="Изображение новости" class="news__pic">
+                      </div>
                     </div>
                     <div class="news__item-desc">
                       <div class="news__item-date">22.12.2015</div>
@@ -208,7 +216,7 @@
                   <a href="#" class="pagination__button-nex">></a>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
         </main>
       </div>
