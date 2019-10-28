@@ -4,7 +4,7 @@
 }
 
 .news__list {
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   width: 880px;
 }

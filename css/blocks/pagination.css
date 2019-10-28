@@ -5,24 +5,26 @@
 
 .pagination__list,
 .pagination__item {
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .pagination__button-prev,
 .pagination__button-nex {
-  display: inline-block;
   vertical-align: middle;
   cursor: pointer;
 }
 
 .pagination__display {
   margin-right: 20px;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .pagination__pager {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  width: 215px;
+  justify-content: space-between;
 }
 
 .pagination__item {
@@ -30,8 +32,6 @@
   font-weight: bold;
   width: 25px;
   height: 25px;
-  text-align: center;
-  vertical-align: middle;
   line-height: 1.5
 }
 

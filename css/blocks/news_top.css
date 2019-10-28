@@ -1,5 +1,7 @@
 .news-top {
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   width: 175px;
+  flex-direction: column;
 }
+
