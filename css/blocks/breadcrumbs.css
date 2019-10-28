@@ -8,3 +8,19 @@
   display: inline-flex;
   vertical-align: middle;
 }
+
+.breadcrumbs__link {
+  font-size: 14px;
+  color: rgba(248, 149, 19, 0.8);
+  font-style: italic;
+}
+
+.breadcrumbs__activ-link {
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+}
+
+.breadcrumbs__activ-item:after {
+  /* display: none; */
+}

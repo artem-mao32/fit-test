@@ -8,165 +8,167 @@
   <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <div class="wrepper">
-    <header class="header">
-      <div class="container header__container">
-        <div class="logo__fitness">
-          <a href="#" class="logo__fitness-link">
-            <img src="./img/logo.png" class="logo__fitnes-pic" alt="Логотип Афродита">
-          </a>
+  <div class="wrapper">
+    <div class="wrapper__content">
+      <header class="header">
+        <div class="container header__container">
+          <div class="logo__fitness">
+            <a href="#" class="logo__fitness-link">
+              <img src="./img/logo.png" class="logo__fitnes-pic" alt="Логотип Афродита">
+            </a>
+          </div>
+          <aside class="sidebar">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link nav__link--icon--main"> Главная </a>
+                </li>
+                <li class="nav__item">
+                  <a href="index_responses.html" class="nav__link nav__link--icon--feed"> Отзывы </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--icon--service"> Услуги </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+        <address class="contacts">
+            <a href="tel:+78000039510" class="contacts__phone">8 (800) 00-395-10</a>
+            <div class="contacts__hours">
+              <a href="#" class="contacts__hours">График работы</a>
+            </div>
+        </address>
         </div>
-        <aside class="sidebar">
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="index.html" class="nav__link nav__link--icon--main"> Главная </a>
+      </header>
+      <div class="responses__content">
+        <div class="container responses__container">
+          <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">Главная</a>
               </li>
-              <li class="nav__item">
-                <a href="index_responses.html" class="nav__link nav__link--icon--feed"> Отзывы </a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link--icon--service"> Услуги </a>
+              <li class="breadcrumbs__activ-item">
+                <a href="#" class="breadcrumbs__activ-link">Отзывы</a>
               </li>
             </ul>
           </nav>
-        </aside>
-      <address class="contacts">
-          <a href="tel:+78000039510" class="contacts__phone">8 (800) 00-395-10</a>
-          <div class="contacts__hours">
-            <a href="#" class="contacts__hours">График работы</a>
-          </div>
-      </address>
-      </div>
-    </header>
-    <div class="responses__content">
-      <div class="container">
-        <nav class="breadcrumbs">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link">Главная</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <section class="responses">
-          <div class="responses__header">
-            <div class="responses__title">
-              <h1 class="responses__title-text">ПОСЛЕДНИЕ НОВОСТИ</h1>
+          <section class="responses">
+            <div class="responses__header">
+              <div class="responses__title">
+                <h1 class="responses__title-text">ОТЗЫВЫ</h1>
+              </div>
             </div>
-          </div>
-          <div class="responses__list">
-            <ul class="responses__list-list">
-              <li class="responses__list-item">
-                <div class="responses__avatar">
-                  <div class="responses__item-pic">
-                    <img src="./img/avatar_comment1.png" alt="Изображение новости" class="responses__pic">
+            <div class="responses__list">
+              <ul class="responses__list-list">
+                <li class="responses__list-item">
+                  <div class="responses__avatar">
+                    <div class="responses__item-pic">
+                      <img src="./img/avatar_comment1.png" alt="аватар пользователя" class="responses__pic">
+                    </div>
                   </div>
-                </div>
-                <div class="responses__item-desc">
-                  <div class="responses__item-date">12.10.2016</div>
-                  <h4 class="responses__item-title">Алексей Воронов</h4>
-                  <div class="responses__item-text">
-                    <p>
-                      Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="responses__list-item">
-                <div class="responses__avatar">
-                  <div class="responses__item-pic">
-                    <img src="./img/avatar_comment2.png" alt="Изображение новости" class="responses__pic">
-                  </div>
-                </div>
-                <div class="responses__item-desc">
-                  <div class="responses__item-date">01.02.2016</div>
-                  <h4 class="responses__item-title">Инна Смольная</h4>
-                  <div class="responses__item-text">
-                    <p>
-                      Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="responses__list-item">
-                <div class="responses__avatar">
-                  <div class="responses__item-pic">
-                    <img src="./img/avatar_VectorSmartObject.png" alt="Изображение новости" class="responses__pic">
-                  </div>
-                </div>
-                <div class="responses__item-desc">
-                  <div class="responses__item-date">22.12.2015</div>
-                  <h4 class="responses__item-title">Владимир Савельев</h4>
-                  <div class="responses__item-text">
+                  <div class="responses__item-desc">
+                    <div class="responses__item-date">12.10.2016</div>
+                    <h4 class="responses__item-title">Алексей Воронов</h4>
+                    <div class="responses__item-text">
                       <p>
-                        Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                        Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
                       </p>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="responses__list-item">
-                <div class="responses__avatar">
-                  <div class="responses__item-pic">
-                    <img src="./img/avatar_comment4.png" alt="Изображение новости" class="responses__pic">
+                </li>
+                <li class="responses__list-item">
+                  <div class="responses__avatar">
+                    <div class="responses__item-pic">
+                      <img src="./img/avatar_comment2.png" alt="аватар пользователя" class="responses__pic">
+                    </div>
                   </div>
-                </div>
-                <div class="responses__item-desc">
-                  <div class="responses__item-date">14.08.2015</div>
-                  <h4 class="responses__item-title">Ирина Савина</h4>
-                  <div class="responses__item-text">
-                    <p>
-                      Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%. 
-                    </p>
+                  <div class="responses__item-desc">
+                    <div class="responses__item-date">01.02.2016</div>
+                    <h4 class="responses__item-title">Инна Смольная</h4>
+                    <div class="responses__item-text">
+                      <p>
+                        Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="pagination">
-            <div class="pagination__display">Страница 1 из 7</div>
-            <div class="pagination__pager">
-              <a href="#" class="pagination__button-prev"><</a>
-              <ul class="pagination__list">
-                <li class="pagination__item pagination__item--active">
-                  <a href="#" class="pagination__link">1</a>
                 </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">2</a>
+                <li class="responses__list-item">
+                  <div class="responses__avatar responses__off-avatar">
+                    <div class="responses__item-pic responses__item-pic--off">
+                      <img src="./img/avatar_VectorSmartObject.png" alt="аватар пользователя" class="responses__pic responses__off-pic">
+                    </div>
+                  </div>
+                  <div class="responses__item-desc">
+                    <div class="responses__item-date">22.12.2015</div>
+                    <h4 class="responses__item-title">Владимир Савельев</h4>
+                    <div class="responses__item-text">
+                        <p>
+                          Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                        </p>
+                    </div>
+                  </div>
                 </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">3</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">4</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">5</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">6</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">7</a>
+                <li class="responses__list-item">
+                  <div class="responses__avatar">
+                    <div class="responses__item-pic">
+                      <img src="./img/avatar_comment4.png" alt="аватар пользователя" class="responses__pic">
+                    </div>
+                  </div>
+                  <div class="responses__item-desc">
+                    <div class="responses__item-date">14.08.2015</div>
+                    <h4 class="responses__item-title">Ирина Савина</h4>
+                    <div class="responses__item-text">
+                      <p>
+                        Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%. 
+                      </p>
+                    </div>
+                  </div>
                 </li>
               </ul>
-              <a href="#" class="pagination__button-nex">></a>
             </div>
-          </div>
-        </section>
+            <div class="pagination">
+              <div class="pagination__display">Страница 1 из 7</div>
+              <div class="pagination__pager">
+                <a href="#" class="pagination__button-prev"><</a>
+                <ul class="pagination__list">
+                  <li class="pagination__item pagination__item--active">
+                    <a href="#" class="pagination__link">1</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">2</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">3</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">4</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">5</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">6</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">7</a>
+                  </li>
+                </ul>
+                <a href="#" class="pagination__button-nex">></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="announcement">
+          <p>
+              Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. 
+              <a href="#" class="coll">Ждем ваших заявок!</a>
+          </p>
+        </div>
       </div>
-      <div class="announcement">
-        <p>
-            Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. 
-            <a href="#" class="coll">Ждем ваших заявок!</a>
-        </p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="form">
-
+      <div class="container">
+        <div class="form">
+  
+        </div>
       </div>
     </div>
     <footer class="footer">
