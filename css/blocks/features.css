@@ -6,9 +6,12 @@
 .features {
   background: #131415;
   color: #fff;
-  text-align: center;
-  height: 560px;
+  /* text-align: center; */
+  min-height: 560px;
   margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .features__title {
@@ -19,8 +22,10 @@ padding: 60px;
 .features__personal-trainer,
 .features__рremium-class {
   width: 200px;
-  display: inline-block;
-  text-align: -webkit-center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+text-align: center;
 }
 
 .features__uniqueness,
@@ -40,6 +45,10 @@ padding: 60px;
 .features__trainer-icon,
 .features__рremium-icon {
   position: relative;
+}
+
+.features ul {
+  padding: 0 0 0 20px;
 }
 
 .features__uniqueness-pic {
@@ -66,7 +75,7 @@ padding: 60px;
 .features ul li {
   list-style: disc;
   text-align: left;
-  width: 140px;
+  padding: 0 20px;  
   margin-bottom: 20px;
 }
 

@@ -9,14 +9,14 @@ ul.nav__list {
 }
 
 ul.nav__list li {
-  display: inline;
+  display: inline-flex;
   text-decoration: none;
   margin-right: 25px;
 }
 
 .nav__link:before {
   content: "";
-  display: inline-block;
+  display: inline-flex;
   vertical-align: middle;
   width: 20px;
   height: 18px;

@@ -12,13 +12,13 @@
 }
 
 .contact__list-item {
-  display: inline-block;
+  display: inline-flex;
   border-radius: 50%;
   background-color: #d0d0d0;
   color: #27273e;
   width: 20px;
   height: 20px;
-  text-align: center;
+  justify-content: center;
   margin-right: 5px;
 }
 

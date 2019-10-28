@@ -1,0 +1,10 @@
+.breadcrumbs__list {
+  display: flex;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  display: inline-flex;
+  vertical-align: middle;
+}
