@@ -6,7 +6,6 @@
 .features {
   background: #131415;
   color: #fff;
-  /* text-align: center; */
   min-height: 560px;
   margin-bottom: 70px;
   display: flex;
@@ -25,7 +24,7 @@ padding: 60px;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-text-align: center;
+  text-align: center;
 }
 
 .features__uniqueness,
@@ -48,7 +47,7 @@ text-align: center;
 }
 
 .features ul {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 25px;
 }
 
 .features__uniqueness-pic {
@@ -74,7 +73,7 @@ text-align: center;
 
 .features ul li {
   list-style: disc;
-  /* text-align: left; */
+  text-align: left;
   padding: 0 20px;  
   margin-bottom: 20px;
 }

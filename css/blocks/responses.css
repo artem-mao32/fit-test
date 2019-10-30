@@ -18,12 +18,28 @@
 }
 
 .responses__list-item {
-  margin-bottom: 55px;
   display: flex;
+  position: relative;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 
-.responses__list-item:nth-child(4) {
-  margin-bottom: 0;
+.responses__list-item:after {
+  content: "";
+  height: 1px;
+  left: 0;
+  right: 20%;
+  position: absolute;
+  bottom: 0;
+  background: #d6c8c8;
+}
+
+.responses__list-item:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.responses__list-item:last-child::after {
+  display: none;
 }
 
 .responses__item-pic {
