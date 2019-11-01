@@ -1,3 +1,11 @@
+.services {
+  margin-bottom: 60px;
+}
+
+.services__header {
+  margin-bottom: 50px;
+}
+
 .services__list-list {
   display: flex;
   flex-wrap: wrap;
@@ -5,9 +13,17 @@
 
 .services__list-item {
   max-width: 250px;
-  margin-right: 60px;
-  margin-bottom: 70px;
 }
+
+.services__list-item--top {
+  margin-bottom: 45px;
+
+}
+
+.services__list-item {
+  margin-right: 60px;
+}
+
 
 .services__list-item:nth-child(3n) {
   margin-right: 0;

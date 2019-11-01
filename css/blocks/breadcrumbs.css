@@ -1,3 +1,7 @@
+.breadcrumbs {
+  margin-bottom: 30px;
+}
+
 .breadcrumbs__list {
   display: flex;
   vertical-align: middle;

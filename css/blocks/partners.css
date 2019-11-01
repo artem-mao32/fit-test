@@ -1,0 +1,33 @@
+.partners {
+  margin-bottom: 80px;
+}
+
+.partners__header {
+  margin-bottom: 85px;
+}
+
+.partners__list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__list-logo {
+  max-width: 250px;
+}
+
+.partners__logo-pic--top {
+  margin-bottom: 50px;
+}
+
+.partners__list-item {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partners__list-logo {
+  margin-right: 150px;
+}
+
+.partners__list-logo:nth-child(3n) {
+  margin-right: 0;
+}
